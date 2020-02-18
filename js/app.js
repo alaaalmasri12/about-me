@@ -313,7 +313,7 @@ var rightanswer = 5;
 alert("guess a number in my head");
 var counter = 0;
 
-while (counter < 4) {
+while (counter < 5) {
     var question6 = parseInt(prompt("Guess a number?? test ur luck with this number"+Math.floor(Math.random() * 10) + 1));
     if (question6 > 5) {
         alert("its too high");
@@ -330,7 +330,7 @@ while (counter < 4) {
     }
 
 counter++;
-if (counter == 4) {
+if (counter == 5) {
     alert("sorry you excdeded ur trys");
 
 }
@@ -338,7 +338,7 @@ if (counter == 4) {
 
 //question7
 var counter = 0;
-var games = ['dota', 'bioshcok', 'fourtnite', 'pupg', 'fifa'];
+var games = ['dota', 'bioshock', 'plants vs zombies', 'pupg', 'fifa'];
 var gamequestion = prompt("guess my faviorite game").toLowerCase();
 while (counter < 7) {
 
@@ -348,26 +348,66 @@ while (counter < 7) {
         // console.log(counter);
         // var gamequestion = prompt("guess my faviorite game");
 
-        if (gamequestion === 'dota' || gamequestion ==='bioshcok' || gamequestion === 'pupg' || gamequestion === 'fifa') {
-            score++;
-            alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa');
-            i = games.length;
+        // if (gamequestion === games[i]) {
+        //     score++;
+        //     alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa');
+            // i = games.length;
+            // counter = 7;
+            // break;
+        // }
+        switch(gamequestion)
+        {
+            case games[0]:
+                score++;
+                alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
+                i = games.length;
             counter = 7;
             break;
-        }
-        // else {
-        //     alert("guess again");
-        // }
-        if (counter === 7) {
-            alert("you have exceded your trys ");
-        } else {
-            gamequestion = prompt("guess my faviorite game");
+                case games[1]:
+                    score++;
+                alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
+                i = games.length;
+            counter = 7;
+            break;
+                case games[2]:
+                    score++;
+                alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
+                i = games.length;
+                counter = 7;
+                break;
+                case games[3]:
+                    score++;
+                alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
+                break;
+                case games[4]:
+                    score++;
+                alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
+                i = games.length;
+                counter = 7;
+                break;
+                case games[5]:
+                    score++;
+                alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
+                i = games.length;
+            counter = 7;
+            break;
+                default:
+ gamequestion = prompt("guess my faviorite game");
             counter++;
             break;
         }
     }
-
-}
+        // else {
+        //     alert("guess again");
+        // }
+        // if (counter === 7) {
+        //     alert("you have exceded your trys ");
+        // } else {
+        //     gamequestion = prompt("guess my faviorite game");
+        //     counter++;
+        //     break;
+        // }
+    }
 alert("your score is"+' '+score+ ' '+'out of'+' '+totalQuestions);
 // if (counter2 === 7) {
 //     alert("you have exceded your trys ");
@@ -376,7 +416,6 @@ alert("your score is"+' '+score+ ' '+'out of'+' '+totalQuestions);
 // question4.toLowerCase();
 // question5.toLocaleLowerCase();
 // question3.toLocaleLowerCase();
-
 
 
 
