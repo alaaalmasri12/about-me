@@ -206,7 +206,7 @@ if(question2.toLowerCase()=== 'yes'||question2.toLowerCase()=== 'y'||
         case 'y':
             score++;
             console.log('yes iam an   an otuku');
-            alert("you are an otuku. go watch Tokyo ghoul");
+            alert("yes iam an   an otuku");
             break;
             case 'no':
             case 'n':
