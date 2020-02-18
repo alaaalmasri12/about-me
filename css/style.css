@@ -123,6 +123,7 @@ header
     left: 32%;
     position: absolute;
     animation: moveright 3s ease-in;
+    animation-delay: 5s;
 }
 .introduction-content h3 {
     top: 45%;
@@ -237,11 +238,14 @@ header
 {
   font-size: 12px;
 }
-footer
-{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/code2.jpg");
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/code2.jpg);
     background-size: 100% 100%;
-    height: 500px;
+    height: 800px;
+}
+.learning-summery
+{
+    margin-top: 4%;
 }
 .footer-contact h1
 {
@@ -292,6 +296,10 @@ form
 {
     text-align: center;
     color: #fff;
+}
+.faviourite-movies
+{
+    margin-top: 10%;
 }
 @keyframes moveright
 {
