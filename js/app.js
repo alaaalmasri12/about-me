@@ -314,7 +314,7 @@ alert("guess a number in my head");
 var counter = 0;
 
 while (counter < 4) {
-    var question6 = parseInt(prompt("Guess a number??"));
+    var question6 = parseInt(prompt("Guess a number?? test ur luck with this number"+Math.floor(Math.random() * 10) + 1));
     if (question6 > 5) {
         alert("its too high");
         counter++;
@@ -329,12 +329,13 @@ while (counter < 4) {
         break;
     }
 
-
-}
+counter++;
 if (counter == 4) {
     alert("sorry you excdeded ur trys");
 
 }
+}
+
 //question7
 var counter = 0;
 var games = ['dota', 'bioshcok', 'fourtnite', 'pupg', 'fifa'];
