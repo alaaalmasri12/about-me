@@ -121,6 +121,9 @@
 
 ///////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+var   Questions=['Do i like horror movies?','Do i like  animes','do i like pc Consoles',
+'do i like fourtnite ?','am i gona pass 201 course','Guess a number??','guess my faviorite game'];
+var answers=['yes','no','n','y'];
 var totalQuestions = 7;
 var score = 0;
 var question1 = prompt("Do i like horror movies? ");
@@ -303,10 +306,6 @@ while (counter < 7) {
                 alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa')
                 i = games.length;
                 counter = 7;
-
-
-
-
                 break;
             case games[1]:
                 score++;
