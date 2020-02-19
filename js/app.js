@@ -275,7 +275,7 @@ while (counter < 3) {
     }
 
     counter++;
-    if (counter == 5) {
+    if (counter == 3) {
         alert("sorry you excdeded ur trys");
 
     }
@@ -342,9 +342,9 @@ while (counter < 7) {
                 break;
         }
 
-        if (counter == 6) {
+        if (counter == 7) {
             alert("you have excedeed your trys");
-            counter=7;
+            counter=6;
             break;
         }
     }
