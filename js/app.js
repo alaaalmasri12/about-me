@@ -258,7 +258,7 @@ var rightanswer = 5;
 alert("guess a number in my head");
 var counter = 0;
 
-while (counter < 5) {
+while (counter < 3) {
     var question6 = parseInt(prompt("Guess a number?? test ur luck with this number" + Math.floor(Math.random() * 10) + 1));
     if (question6 > 5) {
         alert("its too high");
