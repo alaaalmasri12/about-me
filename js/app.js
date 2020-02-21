@@ -14,19 +14,16 @@ function personaldetals()
     case 'yes':
     case 'y':
       score++;
-      console.log('you guessed right my faviourite is drag me to hell');
       alert('you guessed right my faviourite is drag me to hell');
       break;
     case 'no':
     case 'n':
-      console.log('too bad i like horror movies ');
       alert('too bad i like horror movies');
     }
     
   }
     
   else {
-    console.log('enter either yes or no then repeat the answer');
     alert('enter either yes or no then repeat the answer');
   }
     
@@ -37,13 +34,11 @@ function personaldetals()
     case 'yes':
     case 'y':
       score++;
-      console.log('yes iam an   an otuku');
       alert('yes iam an   an otuku');
       break;
     case 'no':
     case 'n':
       alert('your wrong i am big fan of anime');
-      console.log('your wrong i am big fan of anime');
     
       break;
     
@@ -53,7 +48,6 @@ function personaldetals()
   }
     
   else {
-    console.log('enter either yes or no then repeat the answer');
     alert('enter either yes or no then repeat the answer');
   }
   var question3 = prompt('do i like pc Consoles');
@@ -63,12 +57,10 @@ function personaldetals()
     case 'yes':
     case 'y':
       score++;
-      console.log('yes iam a gamer');
       alert('yes iam a gamer');
       break;
     case 'no':
     case 'n':
-      console.log('who doesnt like computer you can do everything on it rethink');
       alert('who doesnt like computer you can do everything on it rethink');
     
     }
@@ -76,7 +68,6 @@ function personaldetals()
   }
     
   else {
-    console.log('enter either yes or no then repeat the answer');
     alert('enter either yes or no then repeat the answer');
   }
   var question4 = prompt('do i like fourtnite ?');
@@ -86,12 +77,10 @@ function personaldetals()
     case 'yes':
     case 'y':
       score++;
-      console.log('you guessed right');
       alert('no i hate this game too childish');
       break;
     case 'no':
     case 'n':
-      console.log('you guessed right its a kid game.');
       alert('maybe you think its a kid game');
     
       break;
@@ -99,7 +88,6 @@ function personaldetals()
   }
     
   else {
-    console.log('enter either yes or no then repeat the answer');
     alert('enter either yes or no then repeat the answer');
   }
   var question5 = prompt('am i gona pass 201 course ');
@@ -109,12 +97,10 @@ function personaldetals()
     case 'yes':
     case 'y':
       score++;
-      console.log('hell yes im gona pass');
       alert('hell yes im gona pass');
       break;
     case 'no':
     case 'n':
-      console.log('you are wrong  you will see');
       alert('you are wrong  you will see');
     
       break;
@@ -123,7 +109,6 @@ function personaldetals()
   }
     
   else {
-    console.log('enter either yes or no then repeat the answer');
     alert('enter either yes or no then repeat the answer');
     
   }
@@ -166,19 +151,8 @@ function numberguess(){
   var gamequestion = prompt('guess my faviorite game').toLowerCase();
   while (counter2 < 7) {
     
-    //console.log(counter);
     for (var i = 0; i < games.length; i++) {
-      // console.log(i);
-      // console.log(counter);
-      // var gamequestion = prompt("guess my faviorite game");
-    
-      // if (gamequestion === games[i]) {
-      //     score++;
-      //     alert("my fav games are " + 'dota bioshcok ,fourtnite,pupg,fifa');
-      // i = games.length;
-      // counter = 7;
-      // break;
-      // }
+     
       switch (gamequestion) {
       case games[0]:
         score++;
@@ -217,7 +191,6 @@ function numberguess(){
       default:
         gamequestion = prompt('guess my faviorite game');
         counter2++;
-        console.log(counter2);
         break;
       }
     
